@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>T1EB's About Page</title>
+
+        <style>
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "fsex300", "Courier", monospace;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    }
+
+
+.navbar {
+  width: 100%;
+  background-color: #383838;
+  overflow: auto;
+  border-radius: 25px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#right-column {
+width: 420px;
+height: 550px;
+background-color: #8a8a8aa2;
+float: right;
+margin: 10px;
+border-radius: 25px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+overflow:auto;
+}
+
+#left-column {
+width: 420px;
+height: 550px;
+background-color: #8a8a8aa2;
+float: left;
+margin: 10px;
+border-radius: 25px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+overflow:auto;
+}
+
+
+.navbar a:hover {
+  background-color: #adadad;
+}
+
+
+.active {
+  background-color: #04AA6D;
+}
+
+#middle-column {
+width: 420px;
+height: 550px;
+background-color: #8a8a8aa2;
+float: center;
+margin: 10px;
+border-radius: 25px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+overflow:auto;
+}
+
+.spacebg {
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: url(spacebg.gif);
+    will-change: transform, filter;
+    z-index: -1;
+    mix-blend-mode: screen;
+}
+
+.spacebg2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: url(spacebg2.gif);
+    will-change: transform, filter;
+    z-index: -2;
+    mix-blend-mode: screen;
+}
+
+
+element.style {
+    animation: backgroundScroll2 25s linear infinite;
+}
+
+element.style {
+    animation: backgroundScroll 15s linear infinite;
+}
+
+@keyframes backgroundScroll {
+0% {background-position:0px 0px; filter: opacity(100%);}
+50% {background-position:0px -234px; filter: opacity(50%);}
+100% {background-position: 0px -468px; filter: opacity(100%);}
+}
+
+@keyframes backgroundScroll2 {
+0% {background-position:0px 0px; filter: opacity(50%);}
+50% {background-position:0px -234px; filter: opacity(100%);}
+100% {background-position: 0px -468px; filter: opacity(50%);}
+}
+    a {
+        color: #00FFFF;
+    }
+    a:hover {
+        color: #FF00FF;
+    }
+    a.nav:hover {
+        color: #FF00FF;
+        -webkit-animation: huecycle 2s linear infinite;
+        animation: huecycle 2s linear infinite;
+    }
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+border: 2px solid #7e7e7e;
+border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #8f8f8f;  
+border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #7e7e7e;  
+}
+
+        </style>
+            <div class="spacebg" style="animation: backgroundScroll 15s linear infinite;"></div>
+            <div class="spacebg2" style="animation: backgroundScroll2 25s linear infinite;"></div>
+        <body>
+            
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <br>
+
+            <div class="navbar">
+              <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+              <a href="socials.html"><i class="fa fa-fw fa-search"></i> Socials</a>
+              <a class="active" href="about.html"><i class="fa fa-fw fa-envelope"></i> About</a>
+            </div>
+            <br>
+
+            <h1>About Page</h1>
+            <h2>This is my about section, showing what i like ect.</h2>
+            <h3>Creation Date: 08/05/2023</h3>
+
+            <div id="left-column"> 
+                <h2>Hobbies</h2>
+                <img src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw48560f51/images/full/full_2023_/2023/full_2023_3359_spectral-fw-29_wh-gy_P5_v2.png" width="300px" />
+                <p>©T1EB 2023</p>
+                <p>I love mountain biking, its just fun as.</p>
+                <p>5 Hours everyday up in the hills and recording clips is the best thing ever.</p>
+                <p>Feeling the happiness when u land a new trick/jump ect, is the best feeling ever.</p>
+                <p>right now, i can currently ride Grade 5 tracks getting onto grade 6's - 08/05/2023</p>
+            </div>
+
+            <div id="right-column">
+                <h2>Hobbies</h2>
+                <img src="https://cdn.icon-icons.com/icons2/1875/PNG/512/script_120049.png" width="200px" />
+                 <p>©T1EB 2023</p>
+                <a href="https://dash.generalassemb.ly/" target="_blank">Learn To Script</a></p>
+                <p>I started learning html and css at the begging of last year.</p>
+                <p>Im progressivly getting better and better each time i learn new stuff.</p>
+                <p>I really recommend trying out any coding language, its really fun to learn and cool things to expirement new things.</p>
+                <marquee>For example, this text is moving.</marquee>
+                </div>
+
+            <center><div id="middle-column">
+                <h2>Hobbies</h2>
+                <img src="https://www.computerlounge.co.nz/data/media/images/systems-assets/landingpage/build-from-scratch.png" width="300px" />
+                 <p>©T1EB 2023</p>
+                <p>Im into gaming, pc building ect.</p>
+                </div></center>
+         
+
+
+        </body>
+    </head>
+
+
+
+
+
+
+
+
+
